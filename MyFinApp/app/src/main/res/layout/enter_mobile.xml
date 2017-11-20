@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/white_card_background"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+        <View
+            android:background="@drawable/grey_handle_line"
+            android:layout_width="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:layout_height="4dp"/>
+        <TextView
+            android:text="Connect your Account Aggregator"
+            android:layout_marginTop="24dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="Enter your mobile"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/normal_gray"
+            android:textSize="14sp"
+            android:layout_marginLeft="48dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/mobile_input"
+            android:background="@drawable/edit_text_background"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:inputType="phone"
+            android:textSize="14sp"
+            android:maxLength="10"
+            android:textColor="@color/black"
+            android:hint="Your Registered Mobile Number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/connect_button"
+            android:layout_gravity="center"
+            android:text="Secure Connect"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/round_blue_button"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
